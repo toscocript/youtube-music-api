@@ -1,19 +1,10 @@
 {
   "name": "youtube-music-api",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "Unoffical Youtube Music API",
   "homepage": "https://github.com/emresenyuva/youtube-music-api#readme",
   "keywords": [
-    "youtube music",
-    "youtube music api",
-    "youtube music private api",
-    "music api",
-    "music youtube",
-    "innertube music api",
-    "unoffical youtube music api",
-    "api",
-    "youtube music client",
-    "youtube music web api"
+    "ytmusic"
   ],
   "main": "src/index.js",
   "repository": {
@@ -23,10 +14,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Emre Şenyuva",
+  "author": "Emre Şenyuva (forked by: Cauã) for nothing, credits to the official and the guy of the pull request",
   "license": "MIT",
   "dependencies": {
-    "axios": ">=0.21.1",
+    "axios": ">=0.24.0",
     "lodash": "^4.17.15",
     "tough-cookie": "^4.0.0"
   }
